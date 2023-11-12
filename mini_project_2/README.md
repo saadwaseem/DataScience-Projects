@@ -1,45 +1,35 @@
-<svg fill="none" viewBox="0 0 800 400" width="800" height="400" xmlns="http://www.w3.org/2000/svg">
-  <foreignObject width="100%" height="100%">
-    <div xmlns="http://www.w3.org/1999/xhtml">
-
-      <style>
-    table {
+<html>
+    <head>
+        <style>
+        table {
             width: 50%;
             margin: auto;
             border-collapse: collapse;
             text-align: center;
             caption-side: bottom;
         }
-
-    th, td {
-        border: 1px solid #ddd;
-        text-align: center;
-        padding: 8px;
-    }
-
-    caption {
-        caption-side: bottom;
-        margin-top: 10px;
-        font-style: italic;
-    }
-
-    img {
-        display: block;
-        margin: auto;
-    }
-
-    figcaption {
-        margin-top: 10px;
-        font-style: italic;
-        text-align: center;
-    }
-</style>
-
-      <!-- your HTML -->
-
-    </div>
-  </foreignObject>
-</svg>
+        th, td {
+            border: 1px solid #ddd;
+            text-align: center;
+            padding: 8px;
+        }
+        caption {
+            caption-side: bottom;
+            margin-top: 10px;
+            font-style: italic;
+        }
+        img {
+            display: block;
+            margin: auto;
+        }
+        figcaption {
+            margin-top: 10px;
+            font-style: italic;
+            text-align: center;
+        }
+        </style>
+    </head>
+</html>
 
 ## Comparative Analysis of Random Forest and KNN Classifiers for Student Grade Prediction Using Machine Learning
 
