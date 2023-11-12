@@ -1,4 +1,8 @@
-<style>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <style>
         table {
             width: 50%;
             margin: auto;
@@ -30,6 +34,8 @@
             text-align: center;
         }
 </style>
+</head>
+</html>
 
 ## Comparative Analysis of Random Forest and KNN Classifiers for Student Grade Prediction Using Machine Learning
 
