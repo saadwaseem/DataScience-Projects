@@ -1,39 +1,3 @@
-<!DOCTYPE html>
-<html lang="en">
-    <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-        <style>
-        table {
-            width: 50%;
-            margin: auto;
-            border-collapse: collapse;
-            text-align: center;
-            caption-side: bottom;
-        }
-        th, td {
-            border: 1px solid #ddd;
-            text-align: center;
-            padding: 8px;
-        }
-        caption {
-            caption-side: bottom;
-            margin-top: 10px;
-            font-style: italic;
-        }
-        img {
-            display: block;
-            margin: auto;
-        }
-        figcaption {
-            margin-top: 10px;
-            font-style: italic;
-            text-align: center;
-        }
-        </style>
-    </head>
-</html>
-
 ## Comparative Analysis of Random Forest and KNN Classifiers for Student Grade Prediction Using Machine Learning
 
 ### Introduction
@@ -63,7 +27,43 @@ The dataset contains student grades for 107 students and it can be seen in Table
 ples of Grade 0 than other grades. It also shows that there is mild data imbalance between Grade 0 class
 and other classes
 
-<table>
+<svg fill="none" viewBox="0 0 800 400" width="800" height="0" xmlns="http://www.w3.org/2000/svg">
+  <foreignObject width="100%" height="100%">
+    <div xmlns="http://www.w3.org/1999/xhtml">
+      <style>
+        table {
+            width: 50%;
+            margin: auto;
+            border-collapse: collapse;
+            text-align: center;
+            caption-side: bottom;
+        }
+        th, td {
+            border: 1px solid #ddd;
+            text-align: center;
+            padding: 8px;
+        }
+        caption {
+            caption-side: bottom;
+            margin-top: 10px;
+            font-style: italic;
+        }
+        img {
+            display: block;
+            margin: auto;
+        }
+        figcaption {
+            margin-top: 10px;
+            font-style: italic;
+            text-align: center;
+        }
+      </style>
+    </div>
+  </foreignObject>
+</svg>
+
+<table style="width: 50%;margin: auto border-collapse: collapse; text-align: center
+caption-side: bottom;">
     <caption>Table 1: Distribution of grades among students</caption>
     <thead>
         <tr>
