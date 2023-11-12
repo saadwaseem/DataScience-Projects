@@ -37,18 +37,23 @@ The collected data is distributed across 9 regions and most of the tweets locati
   <img style="background-color: #fff;" alt="Grades distribution" src="./images/x505zpln.png">
 </p>
 
-<p align="center"><em>Figure 2: Heat Map of grade and highly correlated features</em></p>
+<p align="center"><em>Figure 1: Tweets distribution across known and unknown regions</em></p>
 
 However tweet engagement and spread of information equally contributes towards business goals in terms of brand reputation, marketing and sales.
 
 <div style="display: flex; justify-content: center; align-items: center; margin-bottom: 20px;">
-    <img src="./images/lqc2pmxo.png" alt="Tweets Distribution" style="margin: 0 10px; width: 3.491665573053368in; height: 2.457638888888889in;">
-    <img src="./images/tnhsur4a.png" alt="Likes Distribution over Sentiment" style="margin: 0 10px; width: 3.5548611111111112in; height: 2.4729155730533683in;">
-</div>
-
-<div style="font-style: italic;">
-    <p>Figure 1 - Tweets distribution across known and unknown regions</p>
-    <p>Figure 2 - Likes distribution over sentiment</p>
+    <div style="margin-right: 20px;">
+        <img src="./images/lqc2pmxo.png" alt="Tweets Distribution" style="width: 3.491665573053368in; height: 2.457638888888889in;">
+        <div style="font-style: italic;">
+            <p>Figure 1 - Tweets distribution across known and unknown regions</p>
+        </div>
+    </div>
+    <div>
+        <img src="./images/tnhsur4a.png" alt="Likes Distribution over Sentiment" style="width: 3.5548611111111112in; height: 2.4729155730533683in;">
+        <div style="font-style: italic;">
+            <p>Figure 2 - Likes distribution over sentiment</p>
+        </div>
+    </div>
 </div>
 
 The data showed that tweets with negative sentiment get more engagement in terms of likes and retweets. This affects the digital identity of a
