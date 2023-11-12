@@ -27,75 +27,17 @@ The dataset contains student grades for 107 students and it can be seen in Table
 ples of Grade 0 than other grades. It also shows that there is mild data imbalance between Grade 0 class
 and other classes
 
-<svg fill="none" viewBox="0 0 800 400" width="800" height="0" xmlns="http://www.w3.org/2000/svg">
-  <foreignObject width="100%" height="100%">
-    <div xmlns="http://www.w3.org/1999/xhtml">
-      <style>
-        table {
-            width: 50%;
-            margin: auto;
-            border-collapse: collapse;
-            text-align: center;
-            caption-side: bottom;
-        }
-        th, td {
-            border: 1px solid #ddd;
-            text-align: center;
-            padding: 8px;
-        }
-        caption {
-            caption-side: bottom;
-            margin-top: 10px;
-            font-style: italic;
-        }
-        img {
-            display: block;
-            margin: auto;
-        }
-        figcaption {
-            margin-top: 10px;
-            font-style: italic;
-            text-align: center;
-        }
-      </style>
-    </div>
-  </foreignObject>
-</svg>
+#### Table 1: Distribution of grades among students.
+| Grade | Students |
+|-------|----------|
+|   0   |    48    |
+|   4   |    24    |
+|   3   |    17    |
+|   5   |    13    |
+|   2   |     5    |
 
-<table style="width: 50%;margin: auto border-collapse: collapse; text-align: center
-caption-side: bottom;">
-    <caption>Table 1: Distribution of grades among students</caption>
-    <thead>
-        <tr>
-            <th>Grade</th>
-            <th>Students</th>
-        </tr>
-    </thead>
-    <tbody>
-        <tr>
-            <td>0</td>
-            <td>48</td>
-        </tr>
-        <tr>
-            <td>4</td>
-            <td>24</td>
-        </tr>
-        <tr>
-            <td>3</td>
-            <td>17</td>
-        </tr>
-        <tr>
-            <td>5</td>
-            <td>13</td>
-        </tr>
-        <tr>
-            <td>2</td>
-            <td>5</td>
-        </tr>
-    </tbody>
-</table>
+ 
 
-<br  />
 <br  />
 <img alt="Grades distribution" src="images/grades-distribution.png">
 
@@ -129,7 +71,9 @@ could earn.
 Following table shows the list of features selected for model training along with their pearson coeffi-
 cient and importance scores:
 
-<table>
+<table style="border: 1px solid #ddd;
+            text-align: center;
+            padding: 8px;">
     <thead>
         <tr>
             <th>Feature</th>
@@ -240,7 +184,9 @@ In order to draw more vivid comparison between KNN and RF we used classification
 to highlight the predictive power of both models. We are measuring various metrics including classifi-
 cation accuracy, precision, recall and f-score to ensure the predictive model was fit to produce accurate results. Following Table summarizes the prediction performance measures of both classifiers on the student dataset. It can be seen that both models gave similar performance though random forest results are slightly higher than the KNN with a precision of 0.88 and 0.85 respectively.
 
-<table>
+<table style="border: 1px solid #ddd;
+            text-align: center;
+            padding: 8px;">
     <thead>
         <tr>
             <th>Metric</th>
