@@ -41,20 +41,18 @@ The collected data is distributed across 9 regions and most of the tweets locati
 
 However tweet engagement and spread of information equally contributes towards business goals in terms of brand reputation, marketing and sales.
 
-<div style="display: flex; justify-content: center; align-items: center; margin-bottom: 20px;">
-    <div style="margin-right: 20px;">
-        <img src="./images/lqc2pmxo.png" alt="Tweets Distribution" style="width: 3.491665573053368in; height: 2.457638888888889in;">
-        <div style="font-style: italic;">
-            <p>Figure 1 - Tweets distribution across known and unknown regions</p>
-        </div>
-    </div>
-    <div>
-        <img src="./images/tnhsur4a.png" alt="Likes Distribution over Sentiment" style="width: 3.5548611111111112in; height: 2.4729155730533683in;">
-        <div style="font-style: italic;">
-            <p>Figure 2 - Likes distribution over sentiment</p>
-        </div>
-    </div>
-</div>
+<p align="center">
+  <img style="background-color: #fff;" alt="Grades distribution" src="./images/lqc2pmxo.png">
+</p>
+
+<p align="center"><em>Figure 2 - Tweets distribution across known and unknown regions</em></p>
+
+<p align="center">
+  <img style="background-color: #fff;" alt="Grades distribution" src="./images/tnhsur4a.png">
+</p>
+
+<p align="center"><em>Figure 3 - Likes distribution over sentiment</em></p>
+
 
 The data showed that tweets with negative sentiment get more engagement in terms of likes and retweets. This affects the digital identity of a
 brand like Pepsi and Coca Cola because the tweets with positive sentiment do not spread fast so if a brand loses reputation on twitter it will take longer to regain that reputation and earn the consumer
