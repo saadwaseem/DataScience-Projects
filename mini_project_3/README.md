@@ -55,7 +55,7 @@ tool. During this phase of
 
 data processing we removed extra characters like emojis from tweet's
 text to get accurate
-results.![](./x505zpln.png){width="4.889582239720035in"
+results.![](./images/x505zpln.png){width="4.889582239720035in"
 height="4.889582239720035in"}
 
 **Descriptive** **Analysis**
@@ -70,9 +70,9 @@ creation for the hashtags under consideration.
 > **Figure** **1** **--** **Tweets** **distribution** **across**
 > **known** **and** **unknown** **regions**
 
-![](./lqc2pmxo.png){width="3.491665573053368in"
-height="2.457638888888889in"}![](./tnhsur4a.png){width="3.5548611111111112in"
-height="2.4729155730533683in"}![](./rh2un0nv.png){width="3.561111111111111in"
+![](./images/lqc2pmxo.png){width="3.491665573053368in"
+height="2.457638888888889in"}![](./images/tnhsur4a.png){width="3.5548611111111112in"
+height="2.4729155730533683in"}![](./images/rh2un0nv.png){width="3.561111111111111in"
 height="3.4888877952755903in"}
 
 However tweet engagement and spread of information equally contributes
@@ -97,8 +97,8 @@ in figure 4.
 > **Figure** **4** **--** **Total** **number** **of** **(positive**
 > **&** **negative)** **Tweets**
 
-![](./sgrhgagt.png){width="4.474304461942257in"
-height="3.772221128608924in"}![](./okf0p04g.png){width="4.691665573053369in"
+![](./images/sgrhgagt.png){width="4.474304461942257in"
+height="3.772221128608924in"}![](./images/okf0p04g.png){width="4.691665573053369in"
 height="3.0805555555555557in"}
 
 In order to obtain reasonable size of tweets data we expanded our
@@ -116,8 +116,8 @@ is shown in Figure 5, Figure 6 and Figure 7.
 > **Figure** **6** **--** **Tweets** **count** **with** **and**
 > **without** **#Coke** **#CocaCola**
 
-![](./rwbdtwgz.png){width="5.238888888888889in"
-height="3.488888888888889in"}![](./0h4bmnnj.png){width="4.740971128608924in"
+![](./images/rwbdtwgz.png){width="5.238888888888889in"
+height="3.488888888888889in"}![](./images/0h4bmnnj.png){width="4.740971128608924in"
 height="3.1138877952755903in"}
 
 > **Figure** **7** **--** **Tweets** **count** **with** **and**
@@ -133,7 +133,7 @@ as hashtags or in tweet text.
 > **Figure** **8** **--** **Tweets** **count** **with** **#pepsi**
 > **and** **#lays**
 
-![](./twrna5jt.png){width="4.974304461942257in"
+![](./images/twrna5jt.png){width="4.974304461942257in"
 height="3.2666655730533685in"}
 
 > **Figure** **9** **--** **Tweets** **count** **with** **#coke**
@@ -153,7 +153,7 @@ slight growth, positive sentiment is affected badly hence tweet likes
 went down. That shows a negative sign of combining these two brands for
 marketing and sales objectives.
 
-![](./1b4ni2ap.png){width="4.5111100174978125in"
+![](./images/1b4ni2ap.png){width="4.5111100174978125in"
 height="4.522221128608924in"}
 
 > **Figure** **10** **--** **Tweet** **likes** **with** **#pepsi**
@@ -169,7 +169,7 @@ decrease in negative sentiment for #lays and an increase in positive
 sentiment for #coke. That makes them a potential combination that can
 perform better when placed together in terms of marketing and sales.
 
-![](./m44o54hi.png){width="4.807637795275591in"
+![](./images/m44o54hi.png){width="4.807637795275591in"
 height="4.82013779527559in"}
 
 > **Figure** **11** **--** **Tweet** **likes** **with** **#coke**
@@ -186,7 +186,7 @@ negative sentiment is higher than the positive ones that affects the
 brand reputation. Hence combining these two tags show negative results
 and does not support in marketing and sales targets.
 
-![](./ubkladmg.png){width="4.868748906386702in"
+![](./images/ubkladmg.png){width="4.868748906386702in"
 height="4.868748906386702in"}
 
 > **Figure** **11** **--** **Retweets** **with** **#pepsi** **and**
@@ -197,7 +197,7 @@ Figure 12 summarizes user behavior of retweeting a tweet based on the
 when both hashtags are combined the graph shows growth in positive
 sentiment of tweets that leads to more spread of the information.
 
-![](./lekoz1s0.png){width="4.961805555555555in"
+![](./images/lekoz1s0.png){width="4.961805555555555in"
 height="4.961804461942258in"}
 
 > **Figure** **12** **--** **Retweets** **with** **#coke** **and**
