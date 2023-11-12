@@ -28,21 +28,21 @@ ples of Grade 0 than other grades. It also shows that there is mild data imbalan
 and other classes
 
 #### Table 1: Distribution of grades among students.
-| Grade | Students |
-|-------|----------|
-|   0   |    48    |
-|   4   |    24    |
-|   3   |    17    |
-|   5   |    13    |
-|   2   |     5    |
+|   Grade   | Students |
+|:---------:|:--------:|
+|     0     |    48    |
+|     4     |    24    |
+|     3     |    17    |
+|     5     |    13    |
+|     2     |     5    |
 
- 
 
-<br  />
-<img alt="Grades distribution" src="images/grades-distribution.png">
+<br /> 
+<p align="center">
+  <img alt="Grades distribution" src="images/grades-distribution.png">
+</p>
 
-<figcaption>Grades distribution for machine learning course Figure 1.</figcaption>
-
+<p align="center"><em>Figure 1: Grades distribution for machine learning course.</em></p>
 
 <br />
 
@@ -62,78 +62,29 @@ and summarize the relationship between highly correlated features and the final 
 could earn.
 
 
-<img style="background-color: #fff;" alt="Grades distribution" src="images/correlation-matrix-heatmap.png">
+<p align="center">
+  <img style="background-color: #fff;" alt="Grades distribution" src="images/correlation-matrix-heatmap.png">
+</p>
 
-<figcaption>Heat Map of grade and highly correlated features</figcaption>
-<figcaption>Figure 2</figcaption>
+<p align="center"><em>Figure 2: Heat Map of grade and highly correlated features</em></p>
+
 <br />
 
 Following table shows the list of features selected for model training along with their pearson coeffi-
 cient and importance scores:
 
-<table style="border: 1px solid #ddd;
-            text-align: center;
-            padding: 8px;">
-    <thead>
-        <tr>
-            <th>Feature</th>
-            <th>Pearson Coefficient</th>
-            <th>Importance Score</th>
-        </tr>
-    </thead>
-    <tbody>
-        <tr>
-            <td>Week2_Quiz1</td>
-            <td>0.69</td>
-            <td>0.06</td>
-        </tr>
-        <tr>
-            <td>Week3_MP1</td>
-            <td>0.90</td>
-            <td>0.10</td>
-        </tr>
-        <tr>
-            <td>Week3_PR1</td>
-            <td>0.89</td>
-            <td>0.09</td>
-        </tr>
-        <tr>
-            <td>Week5_MP2</td>
-            <td>0.95</td>
-            <td>0.21</td>
-        </tr>
-        <tr>
-            <td>Week5_PR2</td>
-            <td>0.91</td>
-            <td>0.09</td>
-        </tr>
-        <tr>
-            <td>Week7_MP3</td>
-            <td>0.97</td>
-            <td>0.24</td>
-        </tr>
-        <tr>
-            <td>Week7_PR3</td>
-            <td>0.87</td>
-            <td>0.05</td>
-        </tr>
-        <tr>
-            <td>Week4_Quiz2</td>
-            <td>0.81</td>
-            <td>0.08</td>
-        </tr>
-        <tr>
-            <td>Week6_Quiz3</td>
-            <td>0.85</td>
-            <td>0.02</td>
-        </tr>
-        <tr>
-            <td>Week6_Stat1</td>
-            <td>0.77</td>
-            <td>0.06</td>
-        </tr>
-    </tbody>
-</table>
+| **Feature**    | **Pearson Coefficient** | **Importance Score** |
+|:--------------:|:-----------------------:|:---------------------:|
+| Week2_Quiz1    |           0.69          |         0.06          |
+| Week3_MP1      |           0.90          |         0.10          |
+| Week3_PR1      |           0.89          |         0.09          |
+| Week5_MP2      |           0.95          |         0.21          |
+| Week5_PR2      |           0.91          |         0.09          |
+| Week7_MP3      |           0.97          |         0.24          |
+| Week7_PR3      |           0.87          |         0.05          |
+| Week4_Quiz2    |           0.81          |         0.08          |
+| Week6_Quiz3    |           0.85          |         0.02          |
+| Week6_Stat1    |           0.77          |         0.06          |
 <br />
 
 ### Importance Score of features
@@ -142,10 +93,12 @@ The importance score was calculated for all the correlated features after the ra
 Following graph demonstrates features importance score
 
 
-<img style="background-color: #fff;" alt="Grades distribution" src="images/features-importance.png">
+<p align="center">
+  <img style="background-color: #fff;" alt="Grades distribution" src="images/features-importance.png">
+</p>
 
-<figcaption>Importance Score of features</figcaption>
-<figcaption>Figure 3</figcaption>
+<p align="center"><em>Figure 3: Importance Score of features</em></p>
+
 <br />
 
 ### Training & Test Dataset
@@ -168,55 +121,33 @@ fusion matrix helps to visualize the classification performance of each predicti
 marize the results of confusion matrix for model based random forest. We used heat map to present
 model accuracy of predicted labels against actual labels.
 
-<img style="background-color: #fff;" alt="Grades distribution" src="images/heatmap-cm-rf.png">
+<p align="center">
+  <img style="background-color: #fff;" alt="Grades distribution" src="images/heatmap-cm-rf.png">
+</p>
+<p align="center"><em>Figure 4</em></p>
 
-<figcaption>Figure 4</figcaption>
 
 Figure 2 summarize the results of confusion matrix for KNN based model. We are using heat map to
 present model accuracy of predicted labels against against actual labels.
 
-<img style="background-color: #fff;" alt="Grades distribution" src="images/heatmap-knn-cm.png">
+<p align="center">
+  <img style="background-color: #fff;" alt="Grades distribution" src="images/heatmap-knn-cm.png">
+</p>
 
-<figcaption>Figure 5</figcaption>
+<p align="center"><em>Figure 5</em></p>
 
 <br />
 In order to draw more vivid comparison between KNN and RF we used classification report evaluation
 to highlight the predictive power of both models. We are measuring various metrics including classifi-
 cation accuracy, precision, recall and f-score to ensure the predictive model was fit to produce accurate results. Following Table summarizes the prediction performance measures of both classifiers on the student dataset. It can be seen that both models gave similar performance though random forest results are slightly higher than the KNN with a precision of 0.88 and 0.85 respectively.
 
-<table style="border: 1px solid #ddd;
-            text-align: center;
-            padding: 8px;">
-    <thead>
-        <tr>
-            <th>Metric</th>
-            <th>KNN</th>
-            <th>RF</th>
-        </tr>
-    </thead>
-    <tbody>
-        <tr>
-            <td>Accuracy</td>
-            <td>0.79</td>
-            <td>0.82</td>
-        </tr>
-        <tr>
-            <td>Precision</td>
-            <td>0.85</td>
-            <td>0.88</td>
-        </tr>
-        <tr>
-            <td>Recall</td>
-            <td>0.79</td>
-            <td>0.82</td>
-        </tr>
-        <tr>
-            <td>F1-Score</td>
-            <td>0.79</td>
-            <td>0.83</td>
-        </tr>
-    </tbody>
-</table>
+| **Metric** | **KNN** | **RF** |
+|:----------:|:-------:|:------:|
+|  Accuracy  |   0.79  |  0.82  |
+| Precision  |   0.85  |  0.88  |
+|   Recall   |   0.79  |  0.82  |
+|  F1-Score  |   0.79  |  0.83  |
+
 
 ### Important Features
 Pearson correlation coefficients in Figure 2 and importance scores of individual features in Figure 3
