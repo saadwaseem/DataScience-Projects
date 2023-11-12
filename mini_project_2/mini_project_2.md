@@ -1,9 +1,5 @@
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <style>
-        table {
+<style>
+    table {
             width: 50%;
             margin: auto;
             border-collapse: collapse;
@@ -11,31 +7,29 @@
             caption-side: bottom;
         }
 
-        th, td {
-            border: 1px solid #ddd;
-            text-align: center;
-            padding: 8px;
-        }
+    th, td {
+        border: 1px solid #ddd;
+        text-align: center;
+        padding: 8px;
+    }
 
-        caption {
-            caption-side: bottom;
-            margin-top: 10px;
-            font-style: italic;
-        }
+    caption {
+        caption-side: bottom;
+        margin-top: 10px;
+        font-style: italic;
+    }
 
-        img {
-            display: block;
-            margin: auto;
-        }
+    img {
+        display: block;
+        margin: auto;
+    }
 
-        figcaption {
-            margin-top: 10px;
-            font-style: italic;
-            text-align: center;
-        }
+    figcaption {
+        margin-top: 10px;
+        font-style: italic;
+        text-align: center;
+    }
 </style>
-</head>
-</html>
 
 ## Comparative Analysis of Random Forest and KNN Classifiers for Student Grade Prediction Using Machine Learning
 
