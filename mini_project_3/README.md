@@ -129,7 +129,7 @@ The plot in Figure 11 confirms when #pepsi and #lays appear together the negativ
 
 Figure 12 summarizes user behavior of retweeting a tweet based on the #coke its variant and #lays and the tweet\'s sentiment. It can be seen when both hashtags are combined the graph shows growth in positive sentiment of tweets that leads to more spread of the information.
 
-p align="center">
+<p align="center">
   <img style="background-color: #fff;" alt="Grades distribution" src="./images/facetgrid-retweets-coke-lays.png">
 </p>
 
